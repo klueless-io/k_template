@@ -39,7 +39,15 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   # spec.extensions    = ['ext/k_template/extconf.rb']
 
+  spec.add_dependency 'cmdlet', '~> 0.13'
+  spec.add_dependency 'handlebarsjs', '~> 0.13'
   spec.add_dependency 'k_log', '~> 0'
   # spec.add_dependency 'k_type', '~> 0'
   # spec.add_dependency 'k_util', '~> 0'
 end
+
+#   spec.add_dependency 'k_log', '~> 0'
+#   spec.add_dependency 'k_type', '~> 0'
+#   spec.add_dependency 'k_util', '~> 0'
+#   spec.add_dependency 'rubocop', '~> 1.8'
+# end
