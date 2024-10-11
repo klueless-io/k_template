@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "k_template/version"
+require_relative 'k_template/version'
 
 module KTemplate
   class Error < StandardError; end
